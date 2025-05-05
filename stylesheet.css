@@ -1,0 +1,113 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    text-decoration: none;
+}
+.fa-book-bookmark{
+    font-size: 50px;
+    color: #c9b69d;
+    align-items: left;
+}
+.logo-img {
+    height: 40px;
+    width: auto;
+}
+.navbar{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 55px;
+    padding-left: 55px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: blanchedalmond;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+
+}
+button{
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+}
+button a{
+    color: white;
+    font-weight: bold;
+    font-size: 15px; 
+}
+/* body{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+} */
+.fa-book{
+    font-size: 200px;
+    color: #797f86d2;
+    align-content: left;
+}
+.note{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-large;
+    font-weight: bold;
+}
+.notes {
+    /* background-color: #ffffff; */
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    /* box-shadow: 0 2px 5px rgba(0,0,0,0.1); */
+    font-family: Arial, sans-serif;
+    display: flex;
+    gap: 250px;
+}
+
+.note-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.note {
+    margin: 0;
+    color: #333;
+    font-size: 16px;
+}
+.btn{
+    background-color: #2a2c28;
+    width: 70%;
+  /* font-color: rgb(166, 65, 65); */
+     text-emphasis-color: rgb(43, 41, 41);
+  /* padding: 15px 32px; */
+  text-align: left;
+  /* text-decoration: aqua; */
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  border-color: black;
+}
+.foot{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    align-items: center;
+}
